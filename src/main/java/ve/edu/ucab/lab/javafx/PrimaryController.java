@@ -4,10 +4,18 @@ import javafx.fxml.FXML;
 
 import java.io.IOException;
 
+/**
+ * Controlador para la interfaz primaria de la aplicación JavaFX.
+ */
 public class PrimaryController {
 
+  /**
+   * Cambia la escena actual a la interfaz secundaria cargando el archivo FXML correspondiente.
+   *
+   * @throws IOException si ocurre un error al cargar el archivo FXML
+   */
   @FXML
-  private void switchToSecondary() throws IOException {
+  public void switchToSecondary() throws IOException {
     App.setRoot("/secondary.fxml");
   }
 }

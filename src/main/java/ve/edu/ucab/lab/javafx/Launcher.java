@@ -4,7 +4,7 @@ package ve.edu.ucab.lab.javafx;
  * Clase utilitaria que sirve como punto de entrada para la aplicación JavaFX.
  * No debe ser instanciada.
  */
-public class Launcher {
+public final class Launcher {
 
   /**
    * Constructor privado para prevenir la instanciación de la clase.
